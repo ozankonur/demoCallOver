@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minWidth="400dp"
+    android:minHeight="400dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textViewCreateContact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_margin="15dp"
+        android:textSize="25sp"
+        android:text="Create Contact" />
+
+    <TextView
+        android:id="@+id/textViewContactName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="17sp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="15dp"
+        android:textColor="@color/colorPrimary"
+        android:text="Name" />
+
+
+    <EditText
+        android:id="@+id/editTextName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textSize="17sp"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="15dp"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textViewContactNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="15dp"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginTop="15dp"
+        android:textSize="17sp"
+        android:text="Number" />
+
+    <EditText
+        android:id="@+id/editTextNumber"
+        android:layout_width="match_parent"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="15dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimary"
+        android:textSize="17sp"
+        android:ems="10"
+        android:inputType="phone" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fabCreateContact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="25dp"
+        app:backgroundTint="@android:color/black"
+        android:src="@drawable/ic_add" />
+
+    <TextView
+        android:id="@+id/textViewCancelContactDialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="@color/colorPrimary"
+        android:textSize="17sp"
+        android:text="Cancel" />
+
+</LinearLayout>
